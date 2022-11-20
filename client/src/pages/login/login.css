@@ -1,0 +1,33 @@
+.banner {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 15% 0 10%;
+  }
+  .banner .vector-img {
+    width: 31%;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .projet{
+    height: 250px;
+    width: 80%;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .content-box h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+  }

@@ -1,0 +1,84 @@
+/* LOGINFORM */
+.sl-form {
+    position: relative;
+    width: 100%;
+  
+  }
+  .sl-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .sl-form .form-group label {
+    color: #0c2e60;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .sl-form .form-group input:not([type="checkbox"]) {
+    border: 1px solid #e0e4e6;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .sl-form .form-check {
+    margin-bottom: 30px;
+  }
+  
+  .sl-form .form-check label {
+    color: #000;
+  }
+  
+  .sl-form .form-check label a {
+    color: #000;
+  }
+  
+  .sl-form .form-check label a:hover {
+    text-decoration: underline;
+  }
+  
+  .sl-form .form-check input {
+    margin-top: 8px;
+  }
+  
+  .sl-form .btn {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .sl-form .notice {
+    color: #000;
+  }
+  
+  .sl-form .notice a {
+    color: #ef470d;
+  }
+  
+  .sl-form .notice a:hover {
+    text-decoration: underline;
+  }
+  .btn {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    padding: 20px 40px;
+  }
+  
+  .btn-filled {
+    border-radius: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#ef3e0f), to(#ffb800));
+    background: linear-gradient(to right, #ef3e0f, #ffb800);
+  }
+  
+  .btn-filled:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.05);
+  }
+  .btn-round {
+    border-radius: 50px;
+  }
+  
